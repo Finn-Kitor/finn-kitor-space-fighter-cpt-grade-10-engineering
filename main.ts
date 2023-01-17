@@ -863,7 +863,7 @@ spacecraft = sprites.create(img`
 controller.moveSprite(spacecraft, 400, 400)
 spacecraft.setStayInScreen(true)
 info.setLife(4)
-game.onUpdateInterval(25, function () {
+game.onUpdateInterval(50, function () {
     stars = sprites.create(img`
         . . . . . . . . . . . . . . . 1 
         . . . . . . . . . . . . . . . . 
@@ -886,7 +886,53 @@ game.onUpdateInterval(25, function () {
     stars.setPosition(160, randint(5, 115))
     stars.setFlag(SpriteFlag.AutoDestroy, true)
 })
-game.onUpdateInterval(25, function () {
+game.onUpdateInterval(50, function () {
+    stars = sprites.create(img`
+        . . . . . . . . . . . . . . . 1 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        1 . . . . . . . . . . . . . . . 
+        `, SpriteKind.backround)
+    stars.setVelocity(-400, 0)
+    stars.setPosition(160, randint(5, 115))
+    stars.setFlag(SpriteFlag.AutoDestroy, true)
+})
+game.onUpdateInterval(50, function () {
+    stars = sprites.create(img`
+        . . . . . . . . . . . . . . . 1 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        1 . . . . . . . . . . . . . . . 
+        `, SpriteKind.backround)
+    stars.setVelocity(-400, 0)
+    stars.setPosition(160, randint(5, 115))
+    stars.setFlag(SpriteFlag.AutoDestroy, true)
+})
+game.onUpdateInterval(50, function () {
     stars = sprites.create(img`
         . . . . . . . . . . . . . . . 1 
         . . . . . . . . . . . . . . . . 
