@@ -56,60 +56,6 @@ controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
         2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
         2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
         `, spacecraft, 400, 50)
-    projectile = sprites.createProjectileFromSprite(img`
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        `, spacecraft, -400, 0)
-    projectile = sprites.createProjectileFromSprite(img`
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        `, spacecraft, -400, -50)
-    projectile = sprites.createProjectileFromSprite(img`
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        `, spacecraft, -400, 50)
     music.zapped.play()
 })
 info.onScore(1000, function () {
@@ -296,60 +242,6 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
         `, spacecraft, 400, 50)
-    projectile = sprites.createProjectileFromSprite(img`
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . 2 2 2 . . . . . . . 
-        . . . . . . 2 2 2 . . . . . . . 
-        . . . . . . 2 2 2 . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        `, spacecraft, -400, 0)
-    projectile = sprites.createProjectileFromSprite(img`
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . 2 2 2 . . . . . . . 
-        . . . . . . 2 2 2 . . . . . . . 
-        . . . . . . 2 2 2 . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        `, spacecraft, -400, -50)
-    projectile = sprites.createProjectileFromSprite(img`
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . 2 2 2 . . . . . . . 
-        . . . . . . 2 2 2 . . . . . . . 
-        . . . . . . 2 2 2 . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        `, spacecraft, -400, 50)
     music.pewPew.play()
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite2, otherSprite2) {
@@ -413,60 +305,6 @@ controller.B.onEvent(ControllerButtonEvent.Repeated, function () {
         2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
         2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
         `, spacecraft, 400, 50)
-    projectile = sprites.createProjectileFromSprite(img`
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        `, spacecraft, -400, 0)
-    projectile = sprites.createProjectileFromSprite(img`
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        `, spacecraft, -400, -50)
-    projectile = sprites.createProjectileFromSprite(img`
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-        `, spacecraft, -400, 50)
     music.zapped.play()
 })
 controller.A.onEvent(ControllerButtonEvent.Repeated, function () {
@@ -524,60 +362,6 @@ controller.A.onEvent(ControllerButtonEvent.Repeated, function () {
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
         `, spacecraft, 400, 50)
-    projectile = sprites.createProjectileFromSprite(img`
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . 2 2 2 . . . . . . . 
-        . . . . . . 2 2 2 . . . . . . . 
-        . . . . . . 2 2 2 . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        `, spacecraft, -400, 0)
-    projectile = sprites.createProjectileFromSprite(img`
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . 2 2 2 . . . . . . . 
-        . . . . . . 2 2 2 . . . . . . . 
-        . . . . . . 2 2 2 . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        `, spacecraft, -400, -50)
-    projectile = sprites.createProjectileFromSprite(img`
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . 2 2 2 . . . . . . . 
-        . . . . . . 2 2 2 . . . . . . . 
-        . . . . . . 2 2 2 . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        `, spacecraft, -400, 50)
     music.pewPew.play()
 })
 sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, otherSprite) {
@@ -955,7 +739,53 @@ game.onUpdateInterval(50, function () {
     stars.setPosition(160, randint(5, 115))
     stars.setFlag(SpriteFlag.AutoDestroy, true)
 })
-game.onUpdateInterval(randint(500, 2500), function () {
+game.onUpdateInterval(50, function () {
+    stars = sprites.create(img`
+        . . . . . . . . . . . . . . . 1 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        1 . . . . . . . . . . . . . . . 
+        `, SpriteKind.backround)
+    stars.setVelocity(-400, 0)
+    stars.setPosition(160, randint(5, 115))
+    stars.setFlag(SpriteFlag.AutoDestroy, true)
+})
+game.onUpdateInterval(50, function () {
+    stars = sprites.create(img`
+        . . . . . . . . . . . . . . . 1 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        1 . . . . . . . . . . . . . . . 
+        `, SpriteKind.backround)
+    stars.setVelocity(-400, 0)
+    stars.setPosition(160, randint(5, 115))
+    stars.setFlag(SpriteFlag.AutoDestroy, true)
+})
+game.onUpdateInterval(randint(1500, 2500), function () {
     enemies = sprites.create(img`
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
@@ -978,7 +808,7 @@ game.onUpdateInterval(randint(500, 2500), function () {
     enemies.setPosition(160, randint(5, 115))
     enemies.setFlag(SpriteFlag.AutoDestroy, true)
 })
-game.onUpdateInterval(randint(500, 2500), function () {
+game.onUpdateInterval(randint(1500, 2500), function () {
     enemies = sprites.create(img`
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
@@ -1001,7 +831,7 @@ game.onUpdateInterval(randint(500, 2500), function () {
     enemies.setPosition(160, randint(5, 115))
     enemies.setFlag(SpriteFlag.AutoDestroy, true)
 })
-game.onUpdateInterval(randint(500, 2500), function () {
+game.onUpdateInterval(randint(1500, 2500), function () {
     enemies = sprites.create(img`
         . . . . . . . . . . . . . . . . 
         . . . . 1 . . . . . . . . . . . 
